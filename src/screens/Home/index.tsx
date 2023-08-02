@@ -25,6 +25,22 @@ const DATA = [
     id: Math.random().toString(36).substring(2, 27),
     photoURL: foto4,
   },
+  {
+    id: Math.random().toString(36).substring(2, 27),
+    photoURL: foto,
+  },
+  {
+    id: Math.random().toString(36).substring(2, 27),
+    photoURL: foto2,
+  },
+  {
+    id: Math.random().toString(36).substring(2, 27),
+    photoURL: foto3,
+  },
+  {
+    id: Math.random().toString(36).substring(2, 27),
+    photoURL: foto4,
+  },
 ]
 
 export function Home() {

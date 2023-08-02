@@ -100,5 +100,13 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     alignContent: "center",
   },
+
+  storiesCard: {
+    borderWidth: 2,
+    borderColor: "#F7B55A",
+    borderRadius: 50,
+    marginRight: 10,
+    padding: 2,
+  },
   }
 });

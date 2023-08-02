@@ -67,6 +67,10 @@ export function Home() {
         />
       </View>
 
+      <View style={styles.content}>
+
+      </View>
+
     </View>
   );
 }

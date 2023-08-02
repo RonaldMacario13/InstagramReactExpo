@@ -108,5 +108,9 @@ const styles = StyleSheet.create({
     marginRight: 10,
     padding: 2,
   },
+
+  storiesCardImage: {
+    width: 64,
+    height: 64,
   }
 });

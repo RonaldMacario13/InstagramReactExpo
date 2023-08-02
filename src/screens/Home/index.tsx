@@ -61,7 +61,7 @@ export function Home() {
           keyExtractor={item => item.id}
           renderItem={item => (
             <View style={styles.storiesCard} key={item.item.id}>
-              <Image source={item.item.photoURL} />
+              <Image style={styles.storiesCardImage} source={item.item.photoURL} />
             </View>
           )}
         />

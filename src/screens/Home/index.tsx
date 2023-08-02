@@ -7,13 +7,18 @@ import Message from "../../assets/message.svg"
 export function Home() {
   return (
     <View style={styles.container}>
-        <view style={styles.header}>
+      <View style={styles.header}>
         <Logo />
-        <View>
-            <Stroke />
-            <Message />
-        </View>
-        </view>
+          <View style={styles.headerOptions}>
+              <Stroke />
+              <Message />
+          </View>
+      </View>
+
+      <View>
+        
+      </View>
+
     </View>
   );
 }
@@ -33,5 +38,11 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "space-between",
     flexDirection: "row"
+  },
+
+  headerOptions: {
+    alignItems: "center",
+    flexDirection: "row",
+    gap: 10
   }
 });

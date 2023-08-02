@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { FlatList, Image, StyleSheet, Text, View } from 'react-native';
 
 import Logo from "../../assets/logo.svg"
 import Stroke from "../../assets/stroke.svg"
@@ -38,8 +38,16 @@ export function Home() {
           </View>
       </View>
 
-      <View>
-
+      <View style={styles.stories}>
+        <FlatList
+          data={DATA}
+          keyExtractor={item => item.id}
+          renderItem={item => (
+            <View key={item.item.id}>
+              <Image source={item.item.photoURL} />
+            </View>
+          )}
+        />
       </View>
 
     </View>

@@ -92,5 +92,13 @@ const styles = StyleSheet.create({
     alignItems: "center",
     flexDirection: "row",
     gap: 10
+  },
+
+  stories: {
+    width: "100%",
+    paddingLeft: 10,
+    paddingVertical: 10,
+    alignContent: "center",
+  },
   }
 });

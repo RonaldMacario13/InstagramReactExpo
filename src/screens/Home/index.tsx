@@ -24,3 +24,14 @@ const styles = StyleSheet.create({
     backgroundColor: '#000',
     alignItems: 'center',
   },
+
+  header: {
+    marginTop: 40,
+    paddingHorizontal: 10,
+    width: "100%",
+    height: 56,
+    alignItems: "center",
+    justifyContent: "space-between",
+    flexDirection: "row"
+  }
+});

@@ -3,6 +3,29 @@ import { StyleSheet, Text, View } from 'react-native';
 import Logo from "../../assets/logo.svg"
 import Stroke from "../../assets/stroke.svg"
 import Message from "../../assets/message.svg"
+import foto from "../../assets/foto.png"
+import foto2 from "../../assets/foto2.png"
+import foto3 from "../../assets/foto3.png"
+import foto4 from "../../assets/foto4.png"
+
+const DATA = [
+  {
+    id: Math.random().toString(36).substring(2, 27),
+    photoURL: foto,
+  },
+  {
+    id: Math.random().toString(36).substring(2, 27),
+    photoURL: foto2,
+  },
+  {
+    id: Math.random().toString(36).substring(2, 27),
+    photoURL: foto3,
+  },
+  {
+    id: Math.random().toString(36).substring(2, 27),
+    photoURL: foto4,
+  },
+]
 
 export function Home() {
   return (
@@ -16,7 +39,7 @@ export function Home() {
       </View>
 
       <View>
-        
+
       </View>
 
     </View>

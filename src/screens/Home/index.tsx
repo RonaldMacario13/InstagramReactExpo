@@ -56,6 +56,7 @@ export function Home() {
 
       <View style={styles.stories}>
         <FlatList
+          horizontal={true}
           data={DATA}
           keyExtractor={item => item.id}
           renderItem={item => (

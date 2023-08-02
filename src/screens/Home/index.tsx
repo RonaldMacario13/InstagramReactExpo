@@ -60,7 +60,7 @@ export function Home() {
           data={DATA}
           keyExtractor={item => item.id}
           renderItem={item => (
-            <View key={item.item.id}>
+            <View style={styles.storiesCard} key={item.item.id}>
               <Image source={item.item.photoURL} />
             </View>
           )}
